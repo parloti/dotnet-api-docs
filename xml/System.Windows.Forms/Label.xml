@@ -1271,30 +1271,6 @@
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">The value assigned is not one of the <see cref="T:System.Windows.Forms.Automation.AutomationLiveSetting" /> values.</exception>
       </Docs>
     </Member>
-    <Member MemberName="OnAutoSizeChanged">
-      <MemberSignature Language="C#" Value="protected virtual void OnAutoSizeChanged (EventArgs e);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnAutoSizeChanged(class System.EventArgs e) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.Label.OnAutoSizeChanged(System.EventArgs)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnAutoSizeChanged (e As EventArgs)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnAutoSizeChanged(EventArgs ^ e);" />
-      <MemberSignature Language="F#" Value="abstract member OnAutoSizeChanged : EventArgs -&gt; unit&#xA;override this.OnAutoSizeChanged : EventArgs -&gt; unit" Usage="label.OnAutoSizeChanged e" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Windows.Forms</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="e" Type="System.EventArgs" Index="0" FrameworkAlternate="netframework-1.1" />
-      </Parameters>
-      <Docs>
-        <param name="e">An object that contains the event data.</param>
-        <summary>Raises the <see cref="E:System.Windows.Forms.Control.AutoSizeChanged" /> event.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="OnEnabledChanged">
       <MemberSignature Language="C#" Value="protected override void OnEnabledChanged (EventArgs e);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnEnabledChanged(class System.EventArgs e) cil managed" />
